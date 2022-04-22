@@ -59,6 +59,7 @@ distanceBetweenPoints(x1, x2, y1, y2, z1, z2);
 
 // Tasl 3: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
+/*
 void outputOfTheCubeTable (int numberCube) {
     
     for (int i = 1; i <= numberCube; i ++) {
@@ -68,3 +69,4 @@ void outputOfTheCubeTable (int numberCube) {
 Console.Write("Insert number ");
 int userNumberCube = Convert.ToInt32(Console.ReadLine());
 outputOfTheCubeTable(userNumberCube);
+*/
