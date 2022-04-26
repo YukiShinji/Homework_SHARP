@@ -13,7 +13,7 @@
 
 // Task 1: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 
-
+/*
 void showEvenNumbers (int[] userArray) {
     int arrayCount = 0;
     for (int i = 0; i < userArray.Length; i ++) {
@@ -38,3 +38,29 @@ int userMaxValue = Convert.ToInt32(Console.ReadLine());
 
 int[] userRandomMassive = CreatRandomArray(userSize, userMinValue, userMaxValue);
 showEvenNumbers(userRandomMassive);
+*/
+
+// Task 2: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+/*
+int sumOfOddNumbersInTheArray (int[] userArray) {
+    int sumOfOddNumbers = 0;
+    for (int i = 0; i < userArray.Length; i++) {
+        if (userArray[i] % 2 != 0) {
+            sumOfOddNumbers += userArray[i];
+        }
+    }
+    return sumOfOddNumbers;
+}
+
+Console.WriteLine("Insert size, min and max value in massive ");
+Console.Write("Insert size ");
+int userSize = Convert.ToInt32(Console.ReadLine());
+Console.Write("Insert min value ");
+int userMinValue = Convert.ToInt32(Console.ReadLine());
+Console.Write("Insert max value ");
+int userMaxValue = Convert.ToInt32(Console.ReadLine());
+
+int[] userRandomMassive = CreatRandomArray(userSize, userMinValue, userMaxValue);
+int summOddNumbers = sumOfOddNumbersInTheArray(userRandomMassive);
+Console.WriteLine("This is a summ odd numbers: " + summOddNumbers);
+*/
