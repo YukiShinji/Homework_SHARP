@@ -16,3 +16,22 @@ int usernumberB = Convert.ToInt32(Console.ReadLine());
 
 returnOfNatural(usernumberA, usernumberB);
 */
+
+// Task 2: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+/*
+int sumOfDigits(int numberUser)
+{
+   int sum = 0;
+   while (numberUser > 0) {
+      int rem;
+      numberUser = Math.DivRem(numberUser, 10, out rem);
+      sum += rem;
+   }
+   return sum;
+}
+
+Console.Write("Insert number: ");
+int userNumber = Convert.ToInt32(Console.ReadLine());
+int finalNumber = sumOfDigits(userNumber);
+Console.WriteLine("This is the summ: " + finalNumber);
+*/
