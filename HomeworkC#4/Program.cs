@@ -1,4 +1,4 @@
-﻿
+﻿/*
 int[] CreatRandomArray(int size, int minVal, int maxVal) {
     int[] array = new int[size];
     Console.Write("Your massive: ");
@@ -11,7 +11,7 @@ int[] CreatRandomArray(int size, int minVal, int maxVal) {
     return array;
     
 }
-
+*/
 // Task 1: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 
 /*
